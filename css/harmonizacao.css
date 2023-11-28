@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.quadros-container {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.quadro {
+  background-color: #fff;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.quadro a {
+  text-decoration: none;
+}
+
+.quadro img {
+  max-width: 100%;
+  height: auto;
+}
+.quadro a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.quadro img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .quadros-container {
+    flex-direction: column;
+  }
+
+  .quadro {
+    width: 100%;
+  }
+}
+.rodape {
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 620px;
+}

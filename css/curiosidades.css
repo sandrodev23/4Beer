@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin-top: 105px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.curiosidade-1 img {
+  width: 230px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.curiosidade-2 img {
+  width: 230px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.curiosidade-3 img {
+  width: 230px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.curiosidade-4 img {
+  width: 230px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.origem {
+  position: absolute;
+  top: 110px;
+  left: 260px;
+  font-size: 25px;
+}
+.paragrafo-1 {
+  position: absolute;
+  top: 140px;
+  left: 260px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.paises {
+  position: absolute;
+  top: 332px;
+  left: 260px;
+  font-size: 25px;
+}
+.china {
+  position: absolute;
+  top: 370px;
+  left: 260px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.proibido {
+  position: absolute;
+  top: 570px;
+  left: 260px;
+  font-size: 25px;
+}
+.proibido-p {
+  position: absolute;
+  top: 610px;
+  left: 260px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.temp {
+  position: absolute;
+  top: 790px;
+  left: 260px;
+  font-size: 25px;
+}
+.temp-p {
+  position: absolute;
+  top: 840px;
+  left: 260px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.feast {
+  position: absolute;
+  top: 1010px;
+  left: 260px;
+  font-size: 25px;
+}
+.feast-p {
+  position: absolute;
+  top: 1050px;
+  left: 260px;
+  font-size: 22px;
+  font-weight: 400;
+}
