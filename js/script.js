@@ -34,7 +34,7 @@ function logar() {
   let btn_login = document.querySelector(".btn");
 
   if (nome_usuario == "sandro@gmail.com" && senha_usuario == "Cavalo23021820") {
-    location.href = "paginaInicial.html";
+    location.href = "paginainicial.html";
   } else {
     mostra_erro_usuario.classList.add("mostrar_erro");
   }
